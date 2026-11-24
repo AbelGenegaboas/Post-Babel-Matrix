@@ -1,0 +1,19 @@
+# Local Development & OS Files
+.DS_Store
+Thumbs.db
+node_modules/
+.env
+
+# Obsidian Vault Metadata
+.obsidian/
+*.canvas
+
+# Local Databases (Crucial for n8n/local testing)
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Compiled or Temporary Files
+*.log
+tmp/
